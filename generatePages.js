@@ -19,12 +19,12 @@ indexes.forEach(index => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect Page</title>
     <script>
-        var customUrl = 'algorand://SKULL2LL7O74KEEHTW5OLBO5MNGFA6EMZDIKFSL7QLUXINLARMW5VWV5NA?amount=1&asset=${index}';
+        var customUrl = 'algorand://SKULL2LL7O74KEEHTW5OLBO5MNGFA6EMZDIKFSL7QLUXINLARMW5VWV5NA?amount=0&asset=${index}';
         window.location.replace(customUrl);
     </script>
 </head>
 <body>
-    <p>If you are not redirected, <a href="algorand://SKULL2LL7O74KEEHTW5OLBO5MNGFA6EMZDIKFSL7QLUXINLARMW5VWV5NA?amount=1&asset=${index}">click here</a>.</p>
+    <p>If you are not redirected, <a href="algorand://SKULL2LL7O74KEEHTW5OLBO5MNGFA6EMZDIKFSL7QLUXINLARMW5VWV5NA?amount=0&asset=${index}">click here</a>.</p>
 </body>
 </html>
     `;
